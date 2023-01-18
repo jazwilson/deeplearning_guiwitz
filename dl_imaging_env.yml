@@ -1,0 +1,26 @@
+name: DLImaging
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - numpy
+  - matplotlib
+  - pandas
+  - pip
+  - jupyter
+  - jupyterlab=3.*
+  - ipywidgets
+  - pip:
+    - pytorch-lightning
+    - albumentations
+    - captum
+    - tqdm
+    - opencv-python
+    - psutil
+    - seaborn
+    - scikit-learn
+    - scikit-image
+    - imagecodecs
