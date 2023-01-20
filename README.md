@@ -19,11 +19,12 @@ $ conda env update --file dl_imaging_env.yml
 Activate environment: 
 
 $ conda activate DLImaging
+
 $ code .
 
 ## Overview
 
-### **01 Basic image processing**
+### **[01 Basic image processing](https://github.com/jazwilson/deeplearning_guiwitz/blob/main/notebooks/01_basic_imaging_processing.ipynb)**
 - Basic image manipulation & processing with Pillow and scikit-image
 
 

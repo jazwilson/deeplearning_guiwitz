@@ -13,6 +13,7 @@ dependencies:
   - jupyter
   - jupyterlab=3.*
   - ipywidgets
+  - cudatoolkit=11.1
   - pip:
     - pytorch-lightning
     - albumentations
